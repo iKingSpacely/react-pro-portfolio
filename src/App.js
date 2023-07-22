@@ -1,44 +1,37 @@
 import React from 'react'
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Contact from './components/pages/Contact';
-import About from './components/pages/About';
-import Resume from './components/pages/Resume';
-import Home from './components/pages/Home';
-import Nav from './components/pages/Nav';
-import Projects from './components/pages/Projects'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+import Contact from './components/Contact/';
+import About from './components/About/';
+import Resume from './components/Resume/';
+import Home from './components/Home/';
+import Nav from './components/Nav/';
+import Projects from './components/Projects/'
 
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 export default function App() {
     return (
-        <Router>
-            <div>
+                <Router>
                 <Nav />
                 <Routes>
                     <Route
                         path="/"
-                        element={<Home />}
-                    />
+                        element={<Home />}/>
                     <Route
                         path="/about"
-                        element={<About />}
-                    />
+                        element={<About />}/>
                     <Route
                         path="/projects"
-                        element={<Projects />}
-                    />
+                        element={<Projects />}/>
                     <Route
                         path="/contact"
-                        element={<Contact />}
-                    />
+                        element={<Contact />}/>
                     <Route
                         path="/resume"
-                        element={<Resume />}
-                    />
+                        element={<Resume />}/>
                 </Routes>
-            </div>
-        </Router>
-    )
+                </Router>
+    );
 };
