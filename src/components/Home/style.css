@@ -27,6 +27,7 @@ video {
     align-items: center;
     color: rgb(200, 200, 200);
     font-style: italic;
+    font-size: 75px;
 }
 
 .overlay {
