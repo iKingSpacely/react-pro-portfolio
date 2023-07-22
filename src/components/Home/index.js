@@ -2,7 +2,7 @@ import React from 'react'
 import './style.css'
 import videoBg from '../../assets/videoBg.mp4'
 import Typewriter from "typewriter-effect";
-import About from '../About'
+// import About from '../About'
 
 
 
