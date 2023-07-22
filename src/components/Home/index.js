@@ -1,12 +1,17 @@
 import React from 'react'
-import About from '../About'
+import './style.css'
+import videoBg from '../../assets/videoBg.mp4'
+
 
 
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to My Portfolio!</h1>
-      <About />
+    <div className="home">
+      <div className="overlay"></div>
+      <video src={videoBg} autoPlay loop muted />
+      <div className="content">
+        <h1>Welcome to Adam Colin's Portfolio</h1>
+      </div>
     </div>
 
   )
