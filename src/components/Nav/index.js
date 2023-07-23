@@ -2,7 +2,7 @@ import React from 'react'
 
 import './style.css'
 import Container from 'react-bootstrap/Container';
-import { Button, ButtonGroup, Navbar } from 'react-bootstrap';
+import { Button, Navbar } from 'react-bootstrap';
 import logo from '../Nav/assets/life.jpg'
 
 function MyNavBar() {
@@ -11,13 +11,17 @@ function MyNavBar() {
       <Navbar sticky="top" expand="lg" bg="black" data-bs-theme="dark">
         <Container fluid>
           <Navbar.Brand href="/">
-            <img src={logo} alt="logo..." style={{ width: '4rem' }} />
+            <img 
+            src={logo} 
+            alt="logo..." 
+            style={{ width: '4rem', transition: 'transform 0.2s ease-in-out' }} 
+            className="navbar-logo" />
           </Navbar.Brand>
-          <ButtonGroup className="ml-auto">
+          <div className="button-container">
             <Button href="/About" variant="outline-light">About</Button>
             <Button href="/Projects" variant="outline-light">Projects</Button>
             <Button href="/Contact" variant="outline-light"> Contact</Button>
-          </ButtonGroup>
+            </div>
         </Container>
       </Navbar>
     </div>
