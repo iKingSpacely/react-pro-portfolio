@@ -19,6 +19,10 @@ export default function Home() {
           .pauseFor(1000)
           .deleteAll()
           .typeString("Adam Colin's Portfolio")
+          .pauseFor(1000)
+          .deleteAll()
+          .typeString("Click a Tab to Browse...")
+          .pauseFor(1000)
           .start();
         }}
         />
