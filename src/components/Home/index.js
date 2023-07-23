@@ -33,3 +33,4 @@ export default function Home() {
 }
 
 //how to i get my About page to display after the above typerwriter? - ask tutor
+// i dont want this page to scroll...how to i remove that random grey area right before the footer?
