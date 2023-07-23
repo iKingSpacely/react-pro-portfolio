@@ -20,6 +20,7 @@ function MyNavBar() {
           <div className="button-container">
             <Button href="/About" variant="outline-light">About</Button>
             <Button href="/Projects" variant="outline-light">Projects</Button>
+            <Button href="/Resume" variant="outline-light"> Resume</Button>
             <Button href="/Contact" variant="outline-light"> Contact</Button>
             </div>
         </Container>

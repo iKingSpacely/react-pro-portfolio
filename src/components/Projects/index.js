@@ -8,25 +8,37 @@ export default function Projects() {
   return (
     <Container>
     <Row>
-      <Col xs={6} md={4}>
-        <Image src="holder.js/171x180" fluid />
+      <Col xs={12} md={4}>
+        <OverlayTrigger >
+        <Image src="./assets/e-commerce.png" alt="" fluid />
+        </OverlayTrigger>
       </Col>
-      <Col xs={6} md={4}>
-        <Image src="holder.js/171x180" fluid />
+      <Col xs={12} md={4}>
+      <OverlayTrigger >
+        <Image src="./assets/editor.png" alt="" fluid />
+        </OverlayTrigger>
       </Col>
-      <Col xs={6} md={4}>
-        <Image src="holder.js/171x180" fluid />
+      <Col xs={12} md={4}>
+      <OverlayTrigger >
+        <Image src="./assets/employee-tracker.png" alt="" fluid />
+        </OverlayTrigger>
       </Col>
     </Row>
     <Row>
-      <Col xs={6} md={4}>
-        <Image src="holder.js/171x180" fluid />
+      <Col xs={12} md={4}>
+      <OverlayTrigger >
+        <Image src="./assets/pw-generator.png" alt="" fluid />
+        </OverlayTrigger>
       </Col>
-      <Col xs={6} md={4}>
-        <Image src="holder.js/171x180" fluid />
+      <Col xs={12} md={4}>
+      <OverlayTrigger >
+        <Image src="./assets/readme.png" alt="" fluid />
+        </OverlayTrigger>
       </Col>
-      <Col xs={6} md={4}>
-        <Image src="holder.js/171x180" fluid />
+      <Col xs={12} md={4}>
+      <OverlayTrigger >
+        <Image src="./assets/social-api.png" alt="" fluid />
+        </OverlayTrigger>
       </Col>
     </Row>
   </Container>
