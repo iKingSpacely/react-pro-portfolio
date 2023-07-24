@@ -1,0 +1,19 @@
+.icon-color a {
+    color: white;
+    font-size: 30px;
+}
+
+.icon-color {
+    width: auto;
+    height: 100%;
+    position: relative;
+}
+
+.fit {
+    object-fit: cover !important;
+    width: auto;
+    height: auto;
+    object-position: center;
+    
+}
+

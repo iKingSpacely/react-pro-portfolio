@@ -37,10 +37,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
+    height: 40%;
+
 }
+
 
 .image-container img {
     border-radius: 50%;
     width: 150px;
-    height: 150px;
+    height: auto;
+    object-fit: contain;
+
+
 }

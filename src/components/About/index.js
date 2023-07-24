@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutPic from "./assets/headshot.JPG"
 
 import './style.css'
 
@@ -9,7 +10,7 @@ export default function About() {
       <h1>My name is Adam Colin and here's a little about me...</h1>
       </div>
       <div className="image-container">
-        <img src="./assets/headshot.jpg" alt=""></img>
+        <img src={AboutPic} alt=""></img>
       </div>
       <br></br>
       <div className="box"> 
