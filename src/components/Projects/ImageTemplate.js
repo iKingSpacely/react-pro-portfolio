@@ -1,7 +1,6 @@
 import React from 'react'
 
 
-import { Container, Row, Col, Image } from 'react-bootstrap';
 import { useSpring, animated } from '@react-spring/web';
 import { useState, useRef } from 'react';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -21,7 +20,7 @@ export default function ImageTemplate ({ src, alt, height }) {
             onMouseEnter={() => setShow(true)} 
             onMouseLeave={() => setShow(false)}
           >
-            <Image src={src} alt={alt} fluid className='fit'/>
+            <Image src={src} alt={alt} fluid style={{width: '100%', height: '100%'}}/>
             <animated.div
               style={{
                 position: 'absolute', // Set position to absolute
@@ -39,7 +38,8 @@ export default function ImageTemplate ({ src, alt, height }) {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                flexDirection: 'column'
+                flexDirection: 'column',
+                objectFit: 'cover',
               }}
             >
               <p>hello</p>
