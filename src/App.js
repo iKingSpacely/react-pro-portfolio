@@ -8,6 +8,7 @@ import Home from './components/Home/';
 import Nav from './components/Nav/';
 import Projects from './components/Projects/';
 import Footer from './components/Footer'
+import Container from 'react-bootstrap/Container'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 

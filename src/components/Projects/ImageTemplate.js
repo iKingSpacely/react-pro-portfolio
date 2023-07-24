@@ -1,12 +1,12 @@
 import React from 'react'
 
-
+import Image from 'react-bootstrap/Image'
 import { useSpring, animated } from '@react-spring/web';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export default function ImageTemplate ({ src, alt, height }) {
+export default function ImageTemplate ({ src, alt }) {
   const [show, setShow] = useState(false);
 
   const animation = useSpring({
@@ -20,7 +20,7 @@ export default function ImageTemplate ({ src, alt, height }) {
             onMouseEnter={() => setShow(true)} 
             onMouseLeave={() => setShow(false)}
           >
-            <Image src={src} alt={alt} fluid style={{width: '100%', height: '100%'}}/>
+            <Image src={src} alt={alt} fluid style={{width: 'auto', height: '100%'}}/>
             <animated.div
               style={{
                 position: 'absolute', // Set position to absolute

@@ -5,6 +5,8 @@
     background-color: black;
     color: white;
     padding: 15px 0;
+    height: auto;
+
 }
 
 .footer-content {
@@ -32,4 +34,8 @@
     transform: scale(1.2);
     opacity: 0.7;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    height: auto;
 }

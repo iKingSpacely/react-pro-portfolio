@@ -14,8 +14,27 @@
     width: auto;
     height: auto;
     object-position: center;
-    
+
+}
+
+.pads {
+    padding: 15px 0;
+}
+
+.foot {
+    height: 90%;
 }
 
 
+/* @media screen and (min-width: 480px) {
+    .icon-color {
+        width: 200px;
+        float: left;
+        background-color: aquamarine;
+    }
 
+    #main {
+        margin-left: 216px;
+        background-color: orange;
+    }
+} */

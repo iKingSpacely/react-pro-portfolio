@@ -1,0 +1,9 @@
+html, #root,body {
+    width: auto;
+    height: 100%;
+}
+
+.test {
+    height: 90%;
+   
+}
