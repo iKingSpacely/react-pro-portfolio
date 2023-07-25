@@ -2,7 +2,8 @@
   "name": "react-pro-portfolio",
   "version": "1.0.0",
   "engines": {
-    "node": "9.x"
+    "node": "18.x",
+    "npm": "9.x"
   },
   "private": true,
   "dependencies": {
