@@ -61,7 +61,10 @@ export default function Contact() {
         <Col>
           <Form onSubmit={handleSubmit}>
 
-          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+          <Form.Group 
+          className="mb-3"
+          style={{ fontSize: '25px'}}
+          controlId="exampleForm.ControlInput1">
               <Form.Label>What's Your Name?</Form.Label>
               <Form.Control 
               type="text" 
@@ -76,7 +79,10 @@ export default function Contact() {
               </Form.Control.Feedback>
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Group 
+            className="mb-3"
+            style={{ fontSize: '25px'}} 
+            controlId="exampleForm.ControlInput1">
               <Form.Label>Email Address</Form.Label>
               <Form.Control
               type="email" 
@@ -90,7 +96,10 @@ export default function Contact() {
               </Form.Control.Feedback>
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+            <Form.Group 
+            className="mb-3" 
+            controlId="exampleForm.ControlTextarea1"
+            style={{ fontSize: '25px'}}>
               <Form.Label>Write Me a Message!</Form.Label>
               <Form.Control 
               as="textarea" 
@@ -110,5 +119,5 @@ export default function Contact() {
         </Col>
       </Row>
     </Container>
-  )
+  );
 }

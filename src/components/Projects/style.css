@@ -23,6 +23,10 @@
 
 .foot {
     height: 90%;
+    background-image: url('./assets/stripes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 
