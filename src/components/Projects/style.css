@@ -9,6 +9,7 @@
     position: relative;
 }
 
+
 .fit {
     object-fit: cover !important;
     width: auto;
@@ -19,6 +20,7 @@
 
 .pads {
     padding: 25px 0;
+
 }
 
 .foot {
