@@ -26,29 +26,29 @@ export default function Projects() {
         </Col>
         <Col xs={12} sm={6}>
           <ImageTemplate 
-          src={Editor} alt="" repo='https://github.com/iKingSpacely/social-network-nosql' text='NoSql Social Network' />
+          src={Editor} alt="" repo='https://github.com/iKingSpacely/pwa-text-editor' text='PWA Text Editor' />
         </Col>
       </Row>
 
             <Row className="pads">
         <Col xs={12} sm={6}>
           <ImageTemplate 
-          src={Commerce} alt="" repo='https://github.com/iKingSpacely/social-network-nosql' text='NoSql Social Network'/>
+          src={Commerce} alt="" repo='https://github.com/iKingSpacely/e-commerce-back-end' text='E-Commerce Website Backend Tester'/>
         </Col>
         <Col xs={12} sm={6}>
           <ImageTemplate 
-          src={ReadMe} alt="" repo='https://github.com/iKingSpacely/social-network-nosql' text='NoSql Social Network'/>
+          src={ReadMe} alt="" repo='https://github.com/iKingSpacely/generated-readme-file' text='Automated Readme Generator'/>
         </Col>
       </Row>
       
       <Row className="pads">
         <Col xs={12} sm={6}>
           <ImageTemplate 
-          src={PassGen} alt="" repo='https://github.com/iKingSpacely/social-network-nosql' text='NoSql Social Network'/>
+          src={PassGen} alt="" repo='https://github.com/iKingSpacely/challenge-3-pw-generator' text='Password Generator'/>
         </Col>
         <Col xs={12} sm={6}>
           <ImageTemplate 
-          src={Employee} alt="" repo='https://github.com/iKingSpacely/social-network-nosql' text='NoSql Social Network'/>
+          src={Employee} alt="" repo='https://github.com/iKingSpacely/employee-tracker' text='SQL Employee Tracker'/>
         </Col>
       </Row>
     </Container>
