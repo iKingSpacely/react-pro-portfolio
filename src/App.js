@@ -8,7 +8,6 @@ import Home from './components/Home/';
 import Nav from './components/Nav/';
 import Projects from './components/Projects/';
 import Footer from './components/Footer'
-import Container from 'react-bootstrap/Container'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -34,6 +33,7 @@ export default function App() {
                         path="/resume"
                         element={<Resume />}/>
                 </Routes>
+
                 <Footer />
                 </Router>
     );

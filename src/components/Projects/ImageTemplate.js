@@ -42,7 +42,7 @@ export default function ImageTemplate ({ src, alt }) {
                 objectFit: 'cover',
               }}
             >
-              <p>hello</p>
+              <p>Click Icon to View Project Repo</p>
               <a href="https://github.com/" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faGithub} size="lg" />
               </a>

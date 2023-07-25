@@ -2,6 +2,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
     text-align: center;
+    background-image: url('./assets/white.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    flex-direction: column;
+    min-width: 100%;
+}
+
+.card {
+    width: 30rem;
+    box-shadow: 5px 5px 5px black;
+    justify-content: center;
+
+
 }

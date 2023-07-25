@@ -2,13 +2,18 @@
     height: 100%;
     padding: 50px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    flex-direction: column;
+    min-width: 100%;
 }
 
 .box {
-    box-shadow: 0px 5px 5px #777;
+    box-shadow: 0px 5px 5px black;
     margin: 10px;
     padding: 10px;
     background-color: #777;
@@ -16,7 +21,7 @@
 }
 
 .about-header {
-    box-shadow: 0px 5px 5px #777;
+    box-shadow: 0px 5px 5px black;
     text-align: center;
     font-style: italic;
     font-weight: bold;
@@ -33,21 +38,10 @@
     font-size: 25px;
 }
 
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 40%;
-
-}
-
-
 .image-container img {
-    border-radius: 50%;
-    width: 150px;
+    padding: 10px;
+    border-radius: 35%;
+    width: 200px;
     height: auto;
     object-fit: contain;
-
-
 }
