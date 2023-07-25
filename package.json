@@ -1,6 +1,9 @@
 {
   "name": "react-pro-portfolio",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -22,7 +25,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "install -g npm@9.8.1",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
