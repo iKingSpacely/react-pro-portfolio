@@ -31,7 +31,7 @@ export default function Contact() {
 
     const isNameValid = name.length >=8;
     const isEmailValid = validateEmail(email);
-    const isMessageValid = message.length < 10;
+    const isMessageValid = message.length >= 10;
 
 
     if (!isNameValid) {
@@ -69,7 +69,8 @@ export default function Contact() {
               value={name}
               onChange={handleNameChange}
               isValid={name.length >= 8}
-              isInvalid={validationError !== '' && name.length < 8}/>
+              isInvalid={validationError !== '' && name.length < 8}
+              />
               <Form.Control.Feedback type='invalid'>
                 {validationError}
               </Form.Control.Feedback>
@@ -109,12 +110,5 @@ export default function Contact() {
         </Col>
       </Row>
     </Container>
-
-
-
-
-
-
-
   )
 }
