@@ -22,34 +22,33 @@ export default function Projects() {
       <Row className="pads">
         <Col xs={12} sm={6}>
           <ImageTemplate 
-          src={Commerce} alt=""/>
+          src={Social} alt="" repo='https://github.com/iKingSpacely/social-network-nosql' text='NoSql Social Network'/>
         </Col>
         <Col xs={12} sm={6}>
           <ImageTemplate 
-          src={ReadMe} alt=""/>
+          src={Editor} alt="" repo='https://github.com/iKingSpacely/social-network-nosql' text='NoSql Social Network' />
         </Col>
       </Row>
 
-      <Row className="pads">
+            <Row className="pads">
         <Col xs={12} sm={6}>
           <ImageTemplate 
-          src={Social} alt=""/>
+          src={Commerce} alt="" repo='https://github.com/iKingSpacely/social-network-nosql' text='NoSql Social Network'/>
         </Col>
         <Col xs={12} sm={6}>
           <ImageTemplate 
-          src={Editor} alt=""/>
+          src={ReadMe} alt="" repo='https://github.com/iKingSpacely/social-network-nosql' text='NoSql Social Network'/>
         </Col>
       </Row>
-
       
       <Row className="pads">
         <Col xs={12} sm={6}>
           <ImageTemplate 
-          src={PassGen} alt=""/>
+          src={PassGen} alt="" repo='https://github.com/iKingSpacely/social-network-nosql' text='NoSql Social Network'/>
         </Col>
         <Col xs={12} sm={6}>
           <ImageTemplate 
-          src={Employee} alt=""/>
+          src={Employee} alt="" repo='https://github.com/iKingSpacely/social-network-nosql' text='NoSql Social Network'/>
         </Col>
       </Row>
     </Container>

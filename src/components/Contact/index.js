@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Form, FormControl, Button, Container, Row, Col } from 'react-bootstrap';
+import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 
 export default function Contact() {
 

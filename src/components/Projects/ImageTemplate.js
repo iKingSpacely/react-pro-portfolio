@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export default function ImageTemplate ({ src, alt }) {
+export default function ImageTemplate ({ src, alt, repo, text }) {
   const [show, setShow] = useState(false);
 
   const animation = useSpring({
@@ -32,7 +32,7 @@ export default function ImageTemplate ({ src, alt }) {
                 ...animation,
                 backgroundColor: 'rgba(0,0,0,0.7)',
                 color: 'white',
-                padding: '10px',
+                // padding: '10px',
                 borderRadius: '5px',
                 textAlign: 'center',
                 display: 'flex',
@@ -42,8 +42,8 @@ export default function ImageTemplate ({ src, alt }) {
                 objectFit: 'cover',
               }}
             >
-              <p>Click Icon to View Project Repo</p>
-              <a href="https://github.com/" target="_blank" rel="noreferrer">
+              <p>{text}</p>
+              <a href={repo} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faGithub} size="lg" />
               </a>
             </animated.div>
