@@ -9,6 +9,7 @@ import Social from './assets/social-api.png';
 import Editor from './assets/editor.png';
 import PassGen from './assets/pw-generator.png';
 import Employee from './assets/employee-tracker.png';
+import Budget from './assets/screenshot.png';
 
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -22,7 +23,7 @@ export default function Projects() {
       <Row className="pads">
         <Col xs={12} sm={6}>
           <ImageTemplate 
-          src={Social} alt="" repo='https://github.com/iKingSpacely/social-network-nosql' text='NoSql Social Network'/>
+          src={Budget} alt="" repo='https://dry-citadel-57402-014123fe6f9a.herokuapp.com/' text='FinTrackr'/>
         </Col>
         <Col xs={12} sm={6}>
           <ImageTemplate 
